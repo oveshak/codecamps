@@ -1,0 +1,178 @@
+.community-container {
+
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.community-container .community-hero {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+
+.community-container .community-hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* communty1 */
+
+.community1-container {
+    margin: 90px 0;
+    color: #000;
+}
+
+.community1-container .container {
+    width: 100%;
+}
+
+.community1-container .row6 {
+    width: 100%;
+    display: flex;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.community1-container .row6 .left {
+    width: 70%;
+
+}
+
+.community1-container .row6 .left h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0;
+    position: relative;
+}
+
+.community1-container .row6 .left h2::before {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid #06a9a9;
+    justify-content: right;
+}
+
+.community1-container .row6 .left .rgp {
+    position: relative;
+}
+
+
+
+.community1-container .row6 .left .rgp .rgst h1 {
+    font-size: 25px;
+    color: #06a9a9;
+    margin-bottom: 20px;
+}
+
+.community1-container .row6 .left .rgp .rgst>div {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.community1-container .row6 .left .rgp .rgst>div h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.community1-container .row6 .left .rgp .rgst .subs {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.community1-container .row6 .right {
+    width: 30%;
+
+}
+
+.community1-container .row6 .right .head {
+    background: #eceafc;
+    border-left: 3px solid #3c3a53;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 10px;
+}
+
+.community1-container .row6 .right .rgbs {
+    color: rgba(0, 0, 0, .7);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.community1-container .row6 .right .btnsr {
+    background: #3c3a53;
+    border: 1px solid #e9fe84;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 15px;
+    padding: 10px 18px;
+    text-align: center;
+}
+
+.community1-container .row6 .right .heads1 {
+    margin: 25px 0;
+    background: #d8efef;
+    border-left: 3px solid #3bbbbb;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 10px;
+}
+
+.community1-container .row6 .right .heads2 {
+    margin: 30px 0;
+}
+
+.community1-container .row6 .right .heads2 h3 {
+    font-size: 20px;
+    color: #3bbbbb;
+}
+
+.community1-container .row6 .right .heads2>div {
+    display: flex;
+    gap: 18px;
+}
+
+.community1-container .row6 .right .heads2>div p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width:750px) {
+    .community1-container .row6 {
+        flex-direction: column;
+    }
+
+    .community1-container .row6 .left {
+        width: 100%;
+
+    }
+
+    .community1-container .row6 .right {
+        width: 100%;
+
+    }
+}

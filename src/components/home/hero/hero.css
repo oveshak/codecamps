@@ -1,0 +1,153 @@
+.hero {
+    background-image: url("../../../../public/images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+.hero .container {
+    padding-top: 15%;
+
+}
+
+.hero .container .local h1 {
+    font-size: 70px;
+}
+
+.local2 {
+    margin-top: 30px;
+    position: absolute;
+    background: rgba(63, 61, 86, .95);
+    padding: 20px 20px 20px 258px;
+    left: 0;
+    width: 60%;
+}
+
+.local2 p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.local2 span {
+    color: #1c8a92;
+}
+
+.bg {
+    background-color: #000;
+
+}
+
+.sr p a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.sr p {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:840) {
+    .hero .container .local h1 {
+        font-size: 45px;
+    }
+
+    .local2 {
+
+        padding: 20px 20px 20px 90px;
+        width: 85%;
+        border-radius: 10px !important;
+    }
+
+    .local2 p {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .hero .container .local h1 {
+        font-size: 40px;
+    }
+
+    .local2 {
+
+        padding: 20px 20px 20px 92px;
+        width: 87%;
+
+    }
+
+    .local2 p {
+
+        font-size: 12px;
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 568px) {
+
+    .hero .container .local h1 {
+        font-size: 30px;
+    }
+
+    .local2 {
+
+        padding: 20px 20px 20px 31px;
+        width: 90%;
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 490px) {
+
+    .hero .container .local h1 {
+        font-size: 20px;
+    }
+
+    .local2 {
+
+        padding: 20px 20px 20px 21px;
+        width: 92%;
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 399px) {
+
+    .hero .container .local h1 {
+        font-size: 20px;
+    }
+
+    .local2 {
+
+        padding: 20px 20px 20px 21px;
+        width: 92%;
+
+    }
+
+
+
+
+}

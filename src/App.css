@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300&family=Passions+Conflict&family=Poppins:wght@100;200;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Skranji:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: 'Skranji', cursive;
+    background-color: #f8f8f8;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    max-width: 85%;
+    margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+a,
+ul {
+
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+
+    /* padding: 17px 30px; */
+    background-color: #fff;
+    border: none;
+    line-height: 20px;
+    /* text-align: center; */
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+}
+
+.heading h1 {
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 45px;
+    margin: 30px 0;
+
+
+}
+
+.heading span {
+    position: relative;
+    z-index: 0;
+}
+
+.heading span::before {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #06a9a9;
+}
+
+
+
+.heading p {
+    color: gray;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+.margin {
+    margin-top: 40%;
+}
+
+.block {
+    padding: 30px 18px;
+    background-color: #f3f3f3;
+    color: #000;
+}
+
+.block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+
+}
+
+
+
+
+@media only screen and (max-width:500px) {
+    .heading h1 {
+        font-size: 25px;
+    }
+
+    .heading p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
 }

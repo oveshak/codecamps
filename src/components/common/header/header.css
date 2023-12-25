@@ -1,0 +1,125 @@
+header {
+    background-color: #fff;
+    height: 12vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 35px 0;
+    position: sticky;
+    top: 0;
+    margin-top: auto;
+    z-index: 99999;
+}
+
+
+
+header a {
+    margin-left: 50px;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header .buton1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 30px;
+    
+    color: #56b9b3;
+    margin: auto 20px;
+}
+
+header span {
+    font-size: 30px;
+    color: #56b9b3;
+    margin-bottom: 20px;
+}
+
+.toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 1170px) {
+    header .buton1 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        padding: 0;
+        height: 10vh;
+    }
+
+    header img {
+        margin-top: 30px;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    button {
+        background-color: none;
+    }
+
+    header .toggle {
+        width: 50px;
+        height: 50px;
+        border-radius: 20px;
+        display: block;
+        margin-top: 20px;
+        position: absolute;
+        right: 15px;
+        background-color: gray;
+
+
+    }
+
+    header .toggle .lcon2 {
+        background-color: none;
+    }
+
+    header .toggle .icon1 {
+        color: #000;
+        margin-top: 10px;
+
+    }
+
+    header .small {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        padding: 20px;
+        
+    }
+
+    header li:nth-child(1) {
+        margin-top: 300px;
+    }
+
+
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 40px;
+        margin: auto;
+    }
+
+
+
+
+
+}
+@media only screen and (max-width: 390px) {
+    header {
+        padding: 0;
+        height: 12vh;
+    }
+}
