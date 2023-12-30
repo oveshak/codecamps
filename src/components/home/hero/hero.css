@@ -58,7 +58,9 @@
     .hero .container .local h1 {
         font-size: 45px;
     }
-
+    .local{
+        margin-top: 100px;
+    }
     .local2 {
         margin-top: 40px;
         padding: 20px 20px 20px 90px;
@@ -81,7 +83,7 @@
     }
 
     .local2 {
-
+       margin-top: 30px;
         padding: 20px 20px 20px 92px;
         width: 87%;
 

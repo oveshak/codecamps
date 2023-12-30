@@ -52,7 +52,7 @@ const Footer = () => {
               <form>
                 <input type="email" placeholder="Enter Email Id" />
                 <button type="submit">
-                  Subscribe <BiSolidSend className="icon6" />{" "}
+                  Subscribe <BiSolidSend className="icon6 icon1555" />{" "}
                 </button>
               </form>
             </div>

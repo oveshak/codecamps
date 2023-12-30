@@ -4,7 +4,7 @@ import { nav } from "../../data/Data";
 import "./header.css";
 import { FaTimes } from "react-icons/fa";
 import { FaAlignJustify } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Header = () => {
   const [navlist, setNavlist] = useState(false);
   return (
@@ -18,7 +18,7 @@ const Header = () => {
             <ul className={navlist ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li className="list" key={index}>
-                  <Link to={list.path}>{list.text}</Link>
+                  <a href={list.path}>{list.text}</a>
                 </li>
               ))}
             </ul>
