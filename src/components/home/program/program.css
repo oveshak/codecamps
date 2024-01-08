@@ -30,6 +30,7 @@
 
 .row .box:nth-child(even) h1 span {
     color: #000;
+    /* font-size: 32px; */
 }
 
 .row .box:nth-child(even) .pos p {
@@ -90,11 +91,17 @@
     border-bottom: 40px;
     border-bottom: 3px solid black;
     padding-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
     margin: auto;
     margin-top: 20px;
+    color: #000;
 }
 
+.row .box:nth-child(odd) .login-btn{
+    color: #fff;
+    border-bottom: 40px !important;
+    border-bottom: 3px solid #fff;
+}
 
 /* program2 */
 
@@ -386,7 +393,7 @@
 
 @media only screen and (max-width:540px) {
     .row .box h1 span {
-        font-size: 25px;
+        font-size: 19px;
     }
 
     .row3 .left .rg1 {
@@ -430,7 +437,7 @@
     .row .box:nth-child(even) h1 span::before {
         content: '';
         position: absolute;
-        bottom: -3rem;
+        /* bottom: -3rem; */
         left: 0;
         height: 100%;
         width: 100%;

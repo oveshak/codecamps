@@ -90,7 +90,7 @@ header span {
     }
 
     header .small {
-        position: absolute;
+        position: fixed;
         left: 0;
         width: 100%;
         height: 100vh;
@@ -99,17 +99,27 @@ header span {
         
     }
 
-    header li:nth-child(1) {
+    /* header li:nth-child(1) {
         margin-top: 300px;
+    } */
+    header li{
+        margin: 0;
+  
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
     }
-
+    
 
     header li a {
+        margin-left: 0;
         display: inline-block;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         color: black;
         font-size: 40px;
-        margin: auto;
+        
     }
 
 

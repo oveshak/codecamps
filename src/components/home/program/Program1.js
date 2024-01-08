@@ -18,7 +18,7 @@ const Program1 = () => {
                 </div>
                 <p className="SUB">{item.subtitle}</p>
                 <button className="btn">
-                  <Link className="login-btn">{item.apply}</Link>
+                  <Link className="login-btn" to="/login">{item.apply}</Link>
                 </button>
               </div>
             ))}

@@ -6,6 +6,7 @@ import Footer from "../common/footer/Footer";
 import About from "../about/About";
 import Community from "../community/Community";
 import Contact from "../../contact/Contact";
+import Apply from "../apply/Apply";
 
 const Page = () => {
   return (
@@ -13,11 +14,15 @@ const Page = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} >
+          
+          </Route>
           <Route path="/about" element={<About />} />
           <Route path="/community" element={<Community />} />
           <Route path="/contact" element={<Contact />} />
+         
         </Routes>
+        <Route path="/login" element={<Apply/>}/>
         <Footer />
       </BrowserRouter>
     </>
