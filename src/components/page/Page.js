@@ -22,7 +22,7 @@ const Page = () => {
           <Route path="/contact" element={<Contact />} />
          
         </Routes>
-        <Route path="/login" element={<Apply/>}/>
+
         <Footer />
       </BrowserRouter>
     </>
